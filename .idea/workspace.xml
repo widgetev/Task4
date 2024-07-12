@@ -5,42 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3defdf6-1c68-4d6d-98b4-d8eb54b1587e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/dateTime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/default.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FlatLoginHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/AppChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/DateTimeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/FioChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/UserNameChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/LoginsHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/LoginsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/UsersRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogerPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Integration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-integrationtest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/dateTime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/dateTime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FlatLoginHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FlatLoginHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/checkers/AppChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/AppChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/checkers/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/checkers/DateTimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/DateTimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/checkers/FioChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/FioChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/checkers/UserNameChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/UserNameChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/DBReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/DBWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/LoginsHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/LoginsHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/LoginsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/LoginsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/UsersRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/UsersRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loger/LogTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loger/LogerPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogerPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Integration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Integration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application-integrationtest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-integrationtest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720611187201</updated>
-      <workItem from="1720611188557" duration="65567000" />
+      <workItem from="1720611188557" duration="66260000" />
     </task>
     <servers />
   </component>

@@ -1,22 +1,35 @@
-package org.example.db.model;
+package org.example.db;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Setter @Getter
 @Entity
 @Table(name = "users")
-@NoArgsConstructor @AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+//@AllArgsConstructor
 public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
+    private long id;
+
+    public Users(String username, String fio) {
+        this.username = username;
+        this.fio = fio;
+    }
 
     @Column(name = "username")
-    String username;
+    private String username;
     @Column(name = "fio")
-    String fio;
+    private String fio;
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", fio='" + fio + '\'' +
+                '}';
+    }
 }

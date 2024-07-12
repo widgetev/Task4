@@ -1,18 +1,13 @@
 package org.example;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringBootConfiguration;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.core.io.Resource;
 
-public class App
+@SpringBootApplication(scanBasePackages="org.example")
+public class Starter
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+        SpringApplication.run(Starter.class);
     }
 
-    @Value("classpath:filename.txt")
-    Resource resource;
 }

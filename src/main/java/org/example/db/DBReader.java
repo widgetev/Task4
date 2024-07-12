@@ -1,4 +1,4 @@
-package org.example.db.model;
+package org.example.db;
 
 import org.springframework.stereotype.Component;
 

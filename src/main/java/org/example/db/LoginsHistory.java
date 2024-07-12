@@ -1,4 +1,4 @@
-package org.example.db.model;
+package org.example.db;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,8 +8,9 @@ import lombok.Setter;
 
 import java.sql.Timestamp;
 
-@Getter @Setter
-@AllArgsConstructor @NoArgsConstructor
+//@AllArgsConstructor
+@NoArgsConstructor
+@Setter @Getter
 @Entity
 @Table(name = "loginsHistory")
 public class LoginsHistory  {
@@ -22,6 +23,11 @@ public class LoginsHistory  {
     @JoinColumn(name = "user_id")
     private Users user;
 
+    public LoginsHistory(Users user, Timestamp access_date, String application) {
+        this.user = user;
+        this.access_date = access_date;
+        this.application = application;
+    }
 
     @Column(name = "access_date")
     private Timestamp access_date;
@@ -33,8 +39,8 @@ public class LoginsHistory  {
     public String toString() {
         return  id +
                 " Login at " + access_date +
-                ", by " + user.fio +
-                " <" + user.username + ">" + " (" + user.id + ") "+
+                ", by " + user.getFio() +
+                " <" + user.getUsername() + ">" + " (" + user.getId() + ") "+
                 ", from '" + application + '\'' +
                 '}';
     }
