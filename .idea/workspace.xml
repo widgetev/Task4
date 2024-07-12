@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3defdf6-1c68-4d6d-98b4-d8eb54b1587e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/dateTime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/default.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FlatLoginHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/AppChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/DateTimeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/FioChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkers/UserNameChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/LoginsHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/LoginsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/repositories/UsersRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loger/LogerPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Integration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-integrationtest.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2j3MD3KK1WfLUAqOnDmsQ7w42Bp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/MyDocuments/IdeaProjects/JavaPractic/Task_4/src/test/java/org/example",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30114943"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.checkers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyDocuments\IdeaProjects\JavaPractic\Task_4\src\test\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyDocuments\IdeaProjects\JavaPractic\Task_4\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IntegrationTest">
+    <configuration name="Integration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Integration" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Integration.parserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Integration" />
+      <option name="METHOD_NAME" value="parserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Integration.readData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Integration" />
+      <option name="METHOD_NAME" value="readData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Task_4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="Spring Boot.Starter" />
+        <item itemvalue="JUnit.Integration.parserTest" />
+        <item itemvalue="JUnit.Integration.readData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3defdf6-1c68-4d6d-98b4-d8eb54b1587e" name="Changes" comment="" />
+      <created>1720611187201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720611187201</updated>
+      <workItem from="1720611188557" duration="65567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
